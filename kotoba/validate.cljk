@@ -3,7 +3,7 @@
 ;; Implemented by moonshotai/kimi-k2.7-code via OpenRouter; sourcing/level attrs
 ;; detected by suffix (they live in a different namespace than the code attr).
 ;; Usage: kbb validate.cljk <seed.kotoba.edn>   (exit 0 = all PASS, 1 = any FAIL)
-(require '[clojure.edn :as edn]
+(require '[kotoba.lang.edn :as edn]
          '[clojure.set :as set])
 
 (let [d (edn/read-string (slurp (first *command-line-args*)))
