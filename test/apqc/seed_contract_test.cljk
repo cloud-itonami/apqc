@@ -1,6 +1,6 @@
 (ns apqc.seed-contract-test
   (:require [kotoba.lang.edn :as edn]
-            [clojure.set :as set]
+            [kotoba.lang.coll :as set]
             [kotoba.test :refer [deftest is]]))
 
 (def seed-document (edn/read-string (slurp "kotoba/apqc-pcf.kotoba.edn")))
