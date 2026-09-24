@@ -1,4 +1,4 @@
-(require '[clojure.test :as t])
+(require '[kotoba.test :as t])
 
 (doseq [ns-sym '[apqc.seed-contract-test
                   apqc.lexicon-contract-test
