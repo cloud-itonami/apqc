@@ -1,6 +1,6 @@
 (ns apqc.lexicon-contract-test
   (:require [clojure.edn :as edn]
-            [clojure.test :refer [deftest is]]))
+            [kotoba.test :refer [deftest is]]))
 
 (def lexicon-files
   ["coverageSnapshot" "emitEvent" "getProcess"
